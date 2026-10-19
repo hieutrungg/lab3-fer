@@ -78,7 +78,7 @@ function ProductList() {
           visibleProducts.map((product) => (
             <li key={product.id}>
               {product.id} - {product.name} - 
-              {product.price}đ -  {product.category} - <Link to={`/product/${product.id}`}>Thao Tác</Link>
+              {product.price}đ -  {product.category} - <Link to={`/product/${product.id}`}>Chi tiết</Link>
             </li>
           ))
         ) : (

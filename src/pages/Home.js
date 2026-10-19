@@ -9,7 +9,9 @@ function Home() {
       <Header></Header>
       <h1 className='text-center'><b>Welcome to ProductStore</b></h1>
       <h2 className='text-center'>Manage and explore products for your needs</h2>
-      <button className='center'>[ View Products ]</button>
+      <Link to="/products" role="button" style={{ display: 'block', width: 'fit-content', margin: '0 auto' }}>
+        [ View Products ]
+      </Link>
     </div>
   ) 
 }
